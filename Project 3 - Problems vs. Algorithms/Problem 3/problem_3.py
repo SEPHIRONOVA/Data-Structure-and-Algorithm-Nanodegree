@@ -66,7 +66,6 @@ def rearrange_digits(input_list):
     sorted_list = mergesort(input_list)
     
     
-    #
     for i in range(0, len(sorted_list), 2):
           first_num += str(sorted_list[i])
           
